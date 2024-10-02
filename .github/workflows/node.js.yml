@@ -16,7 +16,8 @@ jobs:
     env:
       HELLO: ${{secrets.HELLO}}
     steps:
-    - run: ${{ github.workspace }}/.next/cache
+    - uses: actions/checkout@v4
+
     - uses: actions/cache@v4
       with:
         path: |
@@ -25,7 +26,7 @@ jobs:
         key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
         restore-keys: |
           ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
-    - uses: actions/checkout@v4
+    
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
