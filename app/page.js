@@ -14,7 +14,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Nalin Nishant
+            Nishu i think it is time to start developing your idea into reality.
           </li>
           <li>so, v4 cache test</li>
         </ol>
