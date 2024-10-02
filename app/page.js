@@ -14,7 +14,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Nalin Finally our CI is faster.
+            Nalin Nishant.
           </li>
           <li>so, v4 cache test</li>
         </ol>
