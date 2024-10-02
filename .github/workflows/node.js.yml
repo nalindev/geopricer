@@ -24,3 +24,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
+    - name: Change Directory
+      run: cd /home/nalin/actions-runner/_work/geopricer/geopricer
+    - run: pm2 restart 0

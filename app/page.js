@@ -16,7 +16,7 @@ export default function Home() {
           <li className="mb-2">
             Nalin Nishant
           </li>
-          <li>so, lets start creating geopricer</li>
+          <li>so, lets start creating geopricer v1</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
