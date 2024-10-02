@@ -16,7 +16,7 @@ export default function Home() {
           <li className="mb-2">
             Nalin Nishant
           </li>
-          <li>so, v2 Start Deploy</li>
+          <li>so, v3 end Deploy</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
