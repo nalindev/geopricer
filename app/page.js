@@ -14,9 +14,9 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Nalin Nishant v1.
+            Nalin Nishant v27.
           </li>
-          <li>so, v4 cache test</li>
+          <li>so, v27 cache test</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
